@@ -52,6 +52,7 @@ a {
     border: 1px solid #983ec5;
 }
 
+
 /* UTILIDADES */
 .u-margin-bottom-peq {
     margin-bottom: 2rem;
@@ -115,6 +116,7 @@ a {
     margin: 0 1rem;
     text-align: center;
     color: white;
+    
 }
 
 .redes-sociais__img, .redes-sociais__titulo {
@@ -127,6 +129,33 @@ a {
     margin-top: 3rem;
     padding: 1rem;
 }
+
+.redes-sociais__link:hover {
+	background:rgb(73, 56, 87); 
+	color:white;
+    transition: .7s;
+    filter:drop-shadow(5px);
+    transform:perspective(2px);
+    cursor: pointer;
+	}
+
+.btn-branco:hover {
+    background:rgb(73, 56, 87); 
+    color:white;
+    transition: .7s;
+    filter:drop-shadow(5px);
+    transform:perspective(2px);
+    cursor: pointer;
+    }
+
+.btn-roxo:hover {
+    background:rgb(73, 56, 87); 
+    color:white;
+    transition: .7s;
+    filter:drop-shadow(5px);
+    transform:perspective(2px);
+    cursor: pointer;
+    }
 
 
 /* MEDIA QUERIES */
